@@ -1,0 +1,62 @@
+/* HTML: <div class="loader"></div> */
+.loader {
+    height: 2px;
+    width: 100%;
+    --c:no-repeat linear-gradient(#4A3AFF 0 0);
+    background: var(--c),var(--c),#C6D2FD;
+    background-size: 60% 100%;
+    animation: l16 3s infinite;
+  }
+  @keyframes l16 {
+    0%   {background-position:-150% 0,-150% 0}
+    66%  {background-position: 250% 0,-150% 0}
+    100% {background-position: 250% 0, 250% 0}
+  }
+
+  .loading {
+    width: 60px;
+    height: 60px;
+    position: relative;
+  }
+  
+  .d1 , .d2 {
+    border: 5px solid #6c757d;
+    border-radius: 50px;
+  }
+  
+  .loading .d1 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    border-left-color: transparent;
+    animation: load161 1s linear infinite;
+  }
+  
+  .loading .d2 {
+    width: 40px;
+    height: 40px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    margin: 7.5px;
+    animation: load2812 1.5s linear infinite;
+  }
+  
+  @keyframes load161 {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes load2812 {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
