@@ -1,6 +1,6 @@
 import axios from "axios";
 // const token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE1MzU1MjI3LCJpYXQiOjE3MTUzNTIyMjcsImp0aSI6ImEzZjEwN2RiNzdiNDQ1ODQ4MTIwMGJjOTBkMjk1MDgzIiwidXNlcl9pZCI6MX0.qix4yck5cU7qXcvZhKKXTpQKNo8pEaexEpTnOa02u1s"
-const baseUrl = "api_api";
+const baseUrl = "/api/";
 
 const getAuthToken = () => {
   try {
