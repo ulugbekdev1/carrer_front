@@ -9,7 +9,7 @@ import Loader from "./components/loader/loader";
 import Careers from "./interface/landing-page/careers";
 import axios from "axios";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 //admin
 const Admin = lazy(() => import("./interface/admin/admin"));
