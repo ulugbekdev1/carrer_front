@@ -5,7 +5,7 @@ import "./index.css";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const User = () => {
   const { pathname } = useLocation();

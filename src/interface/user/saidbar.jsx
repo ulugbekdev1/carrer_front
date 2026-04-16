@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import axios from "axios";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const Saidbar = ({
   open,

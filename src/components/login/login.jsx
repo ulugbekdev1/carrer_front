@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 // Test user credentials
 const TEST_USERS = [

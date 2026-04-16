@@ -1,0 +1,842 @@
+[
+  {
+    "id": 1,
+    "question": "Qaysi texnologiya harbiy mobil aloqa uchun keng qo'llaniladi?",
+    "options": [
+      "GSM",
+      "TETRA",
+      "Wi-Fi",
+      "LTE"
+    ],
+    "correct_answer": "TETRA",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Radioto‘lqinlar qanday muhitda samarali tarqaladi?",
+    "options": [
+      "Tog‘li hudud",
+      "Shahar ichida",
+      "Ochiq maydon",
+      "Tunnel ichida"
+    ],
+    "correct_answer": "Ochiq maydon",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "OOP da 'inheritance' nima anglatadi?",
+    "options": [
+      "Ma'lumot saqlash",
+      "Xatolikni aniqlash",
+      "Klassdan voris olish",
+      "Kod takrorlash"
+    ],
+    "correct_answer": "Klassdan voris olish",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "SQL buyrug‘i `SELECT * FROM users` nima qiladi?",
+    "options": [
+      "Jadvalni yaratadi",
+      "Foydalanuvchini o‘chiradi",
+      "Barcha foydalanuvchilarni tanlaydi",
+      "Jadvalni yangilaydi"
+    ],
+    "correct_answer": "Barcha foydalanuvchilarni tanlaydi",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Jammer qurilmasi qanday vazifani bajaradi?",
+    "options": [
+      "Signalni kuchaytiradi",
+      "Signalni uzatadi",
+      "Signalni to‘sadi",
+      "Signalni tahlil qiladi"
+    ],
+    "correct_answer": "Signalni to‘sadi",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "ESM qisqartmasi nimani anglatadi?",
+    "options": [
+      "Encrypted Signal Method",
+      "Electronic Signal Management",
+      "Electronic Support Measures",
+      "Engineered Signal Mapping"
+    ],
+    "correct_answer": "Electronic Support Measures",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Radar tizimi qanday asosda ishlaydi?",
+    "options": [
+      "Laser nurlar",
+      "Radioto‘lqinlar",
+      "Infraqizil to‘lqinlar",
+      "Aks sado"
+    ],
+    "correct_answer": "Radioto‘lqinlar",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Radiolokatsiya tizimi asosiy vazifasi nima?",
+    "options": [
+      "Signal uzatish",
+      "Ma'lumotni shifrlash",
+      "Obyektni aniqlash",
+      "Kuchaytirish"
+    ],
+    "correct_answer": "Obyektni aniqlash",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Zenit raketasi nimalarga qarshi qo‘llaniladi?",
+    "options": [
+      "Yer usti nishonlar",
+      "Tanklar",
+      "Dengiz kemalari",
+      "Havo nishonlari"
+    ],
+    "correct_answer": "Havo nishonlari",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Havo hujumidan mudofaa tizimining vazifasi?",
+    "options": [
+      "Ma'lumotlar almashinuvi",
+      "Dushman samolyotlarini aniqlash va yo‘q qilish",
+      "Internet ulanishi",
+      "Signal kuchaytirish"
+    ],
+    "correct_answer": "Dushman samolyotlarini aniqlash va yo‘q qilish",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Kriptografiya asosiy vazifasi nima?",
+    "options": [
+      "Ma'lumotni siqish",
+      "Ma'lumotni saqlash",
+      "Ma'lumotni shifrlash",
+      "Ma'lumotni uzatish"
+    ],
+    "correct_answer": "Ma'lumotni shifrlash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Firewall nima uchun ishlatiladi?",
+    "options": [
+      "Ma'lumotlarni zaxiralash",
+      "Zararkunanda dasturlarni aniqlash",
+      "Tarmoqga ruxsatsiz kirishni bloklash",
+      "Internet tezligini oshirish"
+    ],
+    "correct_answer": "Tarmoqga ruxsatsiz kirishni bloklash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Intellektual kuzatuv tizimlarining vazifasi?",
+    "options": [
+      "Ma'lumotni tahlil qilish",
+      "Chegara hududini nazorat qilish",
+      "Aloqa ta'minoti",
+      "Suv o‘lchovlari"
+    ],
+    "correct_answer": "Chegara hududini nazorat qilish",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Sun'iy intellekt yordamida kuzatuvda nima aniqlanadi?",
+    "options": [
+      "Harorat",
+      "Havodagi namlik",
+      "Harakatlanayotgan obyekt",
+      "Yer osti suv zahirasi"
+    ],
+    "correct_answer": "Harakatlanayotgan obyekt",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "RSA algoritmi nima uchun qo‘llaniladi?",
+    "options": [
+      "Raqamli imzo",
+      "Tarmoq monitoringi",
+      "Video uzatish",
+      "Disk formatlash"
+    ],
+    "correct_answer": "Raqamli imzo",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Shifrlashda 'open key' nimani anglatadi?",
+    "options": [
+      "Maxfiy kalit",
+      "Ko‘p kalitli tizim",
+      "Barcha uchun ochiq kalit",
+      "Yashirin signal"
+    ],
+    "correct_answer": "Barcha uchun ochiq kalit",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Qaysi texnologiya harbiy mobil aloqa uchun keng qo'llaniladi?",
+    "options": [
+      "GSM",
+      "TETRA",
+      "Wi-Fi",
+      "LTE"
+    ],
+    "correct_answer": "TETRA",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Radioto‘lqinlar qanday muhitda samarali tarqaladi?",
+    "options": [
+      "Tog‘li hudud",
+      "Shahar ichida",
+      "Ochiq maydon",
+      "Tunnel ichida"
+    ],
+    "correct_answer": "Ochiq maydon",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "OOP da 'inheritance' nima anglatadi?",
+    "options": [
+      "Ma'lumot saqlash",
+      "Xatolikni aniqlash",
+      "Klassdan voris olish",
+      "Kod takrorlash"
+    ],
+    "correct_answer": "Klassdan voris olish",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "SQL buyrug‘i `SELECT * FROM users` nima qiladi?",
+    "options": [
+      "Jadvalni yaratadi",
+      "Foydalanuvchini o‘chiradi",
+      "Barcha foydalanuvchilarni tanlaydi",
+      "Jadvalni yangilaydi"
+    ],
+    "correct_answer": "Barcha foydalanuvchilarni tanlaydi",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Jammer qurilmasi qanday vazifani bajaradi?",
+    "options": [
+      "Signalni kuchaytiradi",
+      "Signalni uzatadi",
+      "Signalni to‘sadi",
+      "Signalni tahlil qiladi"
+    ],
+    "correct_answer": "Signalni to‘sadi",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "ESM qisqartmasi nimani anglatadi?",
+    "options": [
+      "Encrypted Signal Method",
+      "Electronic Signal Management",
+      "Electronic Support Measures",
+      "Engineered Signal Mapping"
+    ],
+    "correct_answer": "Electronic Support Measures",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Radar tizimi qanday asosda ishlaydi?",
+    "options": [
+      "Laser nurlar",
+      "Radioto‘lqinlar",
+      "Infraqizil to‘lqinlar",
+      "Aks sado"
+    ],
+    "correct_answer": "Radioto‘lqinlar",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Radiolokatsiya tizimi asosiy vazifasi nima?",
+    "options": [
+      "Signal uzatish",
+      "Ma'lumotni shifrlash",
+      "Obyektni aniqlash",
+      "Kuchaytirish"
+    ],
+    "correct_answer": "Obyektni aniqlash",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Zenit raketasi nimalarga qarshi qo‘llaniladi?",
+    "options": [
+      "Yer usti nishonlar",
+      "Tanklar",
+      "Dengiz kemalari",
+      "Havo nishonlari"
+    ],
+    "correct_answer": "Havo nishonlari",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "Havo hujumidan mudofaa tizimining vazifasi?",
+    "options": [
+      "Ma'lumotlar almashinuvi",
+      "Dushman samolyotlarini aniqlash va yo‘q qilish",
+      "Internet ulanishi",
+      "Signal kuchaytirish"
+    ],
+    "correct_answer": "Dushman samolyotlarini aniqlash va yo‘q qilish",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Kriptografiya asosiy vazifasi nima?",
+    "options": [
+      "Ma'lumotni siqish",
+      "Ma'lumotni saqlash",
+      "Ma'lumotni shifrlash",
+      "Ma'lumotni uzatish"
+    ],
+    "correct_answer": "Ma'lumotni shifrlash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Firewall nima uchun ishlatiladi?",
+    "options": [
+      "Ma'lumotlarni zaxiralash",
+      "Zararkunanda dasturlarni aniqlash",
+      "Tarmoqga ruxsatsiz kirishni bloklash",
+      "Internet tezligini oshirish"
+    ],
+    "correct_answer": "Tarmoqga ruxsatsiz kirishni bloklash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Intellektual kuzatuv tizimlarining vazifasi?",
+    "options": [
+      "Ma'lumotni tahlil qilish",
+      "Chegara hududini nazorat qilish",
+      "Aloqa ta'minoti",
+      "Suv o‘lchovlari"
+    ],
+    "correct_answer": "Chegara hududini nazorat qilish",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "Sun'iy intellekt yordamida kuzatuvda nima aniqlanadi?",
+    "options": [
+      "Harorat",
+      "Havodagi namlik",
+      "Harakatlanayotgan obyekt",
+      "Yer osti suv zahirasi"
+    ],
+    "correct_answer": "Harakatlanayotgan obyekt",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "RSA algoritmi nima uchun qo‘llaniladi?",
+    "options": [
+      "Raqamli imzo",
+      "Tarmoq monitoringi",
+      "Video uzatish",
+      "Disk formatlash"
+    ],
+    "correct_answer": "Raqamli imzo",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Shifrlashda 'open key' nimani anglatadi?",
+    "options": [
+      "Maxfiy kalit",
+      "Ko‘p kalitli tizim",
+      "Barcha uchun ochiq kalit",
+      "Yashirin signal"
+    ],
+    "correct_answer": "Barcha uchun ochiq kalit",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Qaysi texnologiya harbiy mobil aloqa uchun keng qo'llaniladi?",
+    "options": [
+      "GSM",
+      "TETRA",
+      "Wi-Fi",
+      "LTE"
+    ],
+    "correct_answer": "TETRA",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "Radioto‘lqinlar qanday muhitda samarali tarqaladi?",
+    "options": [
+      "Tog‘li hudud",
+      "Shahar ichida",
+      "Ochiq maydon",
+      "Tunnel ichida"
+    ],
+    "correct_answer": "Ochiq maydon",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "OOP da 'inheritance' nima anglatadi?",
+    "options": [
+      "Ma'lumot saqlash",
+      "Xatolikni aniqlash",
+      "Klassdan voris olish",
+      "Kod takrorlash"
+    ],
+    "correct_answer": "Klassdan voris olish",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "SQL buyrug‘i `SELECT * FROM users` nima qiladi?",
+    "options": [
+      "Jadvalni yaratadi",
+      "Foydalanuvchini o‘chiradi",
+      "Barcha foydalanuvchilarni tanlaydi",
+      "Jadvalni yangilaydi"
+    ],
+    "correct_answer": "Barcha foydalanuvchilarni tanlaydi",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "Jammer qurilmasi qanday vazifani bajaradi?",
+    "options": [
+      "Signalni kuchaytiradi",
+      "Signalni uzatadi",
+      "Signalni to‘sadi",
+      "Signalni tahlil qiladi"
+    ],
+    "correct_answer": "Signalni to‘sadi",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "ESM qisqartmasi nimani anglatadi?",
+    "options": [
+      "Encrypted Signal Method",
+      "Electronic Signal Management",
+      "Electronic Support Measures",
+      "Engineered Signal Mapping"
+    ],
+    "correct_answer": "Electronic Support Measures",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Radar tizimi qanday asosda ishlaydi?",
+    "options": [
+      "Laser nurlar",
+      "Radioto‘lqinlar",
+      "Infraqizil to‘lqinlar",
+      "Aks sado"
+    ],
+    "correct_answer": "Radioto‘lqinlar",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "Radiolokatsiya tizimi asosiy vazifasi nima?",
+    "options": [
+      "Signal uzatish",
+      "Ma'lumotni shifrlash",
+      "Obyektni aniqlash",
+      "Kuchaytirish"
+    ],
+    "correct_answer": "Obyektni aniqlash",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Zenit raketasi nimalarga qarshi qo‘llaniladi?",
+    "options": [
+      "Yer usti nishonlar",
+      "Tanklar",
+      "Dengiz kemalari",
+      "Havo nishonlari"
+    ],
+    "correct_answer": "Havo nishonlari",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "Havo hujumidan mudofaa tizimining vazifasi?",
+    "options": [
+      "Ma'lumotlar almashinuvi",
+      "Dushman samolyotlarini aniqlash va yo‘q qilish",
+      "Internet ulanishi",
+      "Signal kuchaytirish"
+    ],
+    "correct_answer": "Dushman samolyotlarini aniqlash va yo‘q qilish",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Kriptografiya asosiy vazifasi nima?",
+    "options": [
+      "Ma'lumotni siqish",
+      "Ma'lumotni saqlash",
+      "Ma'lumotni shifrlash",
+      "Ma'lumotni uzatish"
+    ],
+    "correct_answer": "Ma'lumotni shifrlash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "Firewall nima uchun ishlatiladi?",
+    "options": [
+      "Ma'lumotlarni zaxiralash",
+      "Zararkunanda dasturlarni aniqlash",
+      "Tarmoqga ruxsatsiz kirishni bloklash",
+      "Internet tezligini oshirish"
+    ],
+    "correct_answer": "Tarmoqga ruxsatsiz kirishni bloklash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "Intellektual kuzatuv tizimlarining vazifasi?",
+    "options": [
+      "Ma'lumotni tahlil qilish",
+      "Chegara hududini nazorat qilish",
+      "Aloqa ta'minoti",
+      "Suv o‘lchovlari"
+    ],
+    "correct_answer": "Chegara hududini nazorat qilish",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "Sun'iy intellekt yordamida kuzatuvda nima aniqlanadi?",
+    "options": [
+      "Harorat",
+      "Havodagi namlik",
+      "Harakatlanayotgan obyekt",
+      "Yer osti suv zahirasi"
+    ],
+    "correct_answer": "Harakatlanayotgan obyekt",
+    "related_fields": [
+      "DXX chegara qo‘shinlari (intellektual tizimlar)"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "RSA algoritmi nima uchun qo‘llaniladi?",
+    "options": [
+      "Raqamli imzo",
+      "Tarmoq monitoringi",
+      "Video uzatish",
+      "Disk formatlash"
+    ],
+    "correct_answer": "Raqamli imzo",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "Shifrlashda 'open key' nimani anglatadi?",
+    "options": [
+      "Maxfiy kalit",
+      "Ko‘p kalitli tizim",
+      "Barcha uchun ochiq kalit",
+      "Yashirin signal"
+    ],
+    "correct_answer": "Barcha uchun ochiq kalit",
+    "related_fields": [
+      "Axborotlarni kriptografik himoyalash va maxsus aloqa"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "Qaysi texnologiya harbiy mobil aloqa uchun keng qo'llaniladi?",
+    "options": [
+      "GSM",
+      "TETRA",
+      "Wi-Fi",
+      "LTE"
+    ],
+    "correct_answer": "TETRA",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Radioto‘lqinlar qanday muhitda samarali tarqaladi?",
+    "options": [
+      "Tog‘li hudud",
+      "Shahar ichida",
+      "Ochiq maydon",
+      "Tunnel ichida"
+    ],
+    "correct_answer": "Ochiq maydon",
+    "related_fields": [
+      "Aloqa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "OOP da 'inheritance' nima anglatadi?",
+    "options": [
+      "Ma'lumot saqlash",
+      "Xatolikni aniqlash",
+      "Klassdan voris olish",
+      "Kod takrorlash"
+    ],
+    "correct_answer": "Klassdan voris olish",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "SQL buyrug‘i `SELECT * FROM users` nima qiladi?",
+    "options": [
+      "Jadvalni yaratadi",
+      "Foydalanuvchini o‘chiradi",
+      "Barcha foydalanuvchilarni tanlaydi",
+      "Jadvalni yangilaydi"
+    ],
+    "correct_answer": "Barcha foydalanuvchilarni tanlaydi",
+    "related_fields": [
+      "Axborot texnologiyalari va dasturiy injiniring"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Jammer qurilmasi qanday vazifani bajaradi?",
+    "options": [
+      "Signalni kuchaytiradi",
+      "Signalni uzatadi",
+      "Signalni to‘sadi",
+      "Signalni tahlil qiladi"
+    ],
+    "correct_answer": "Signalni to‘sadi",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "ESM qisqartmasi nimani anglatadi?",
+    "options": [
+      "Encrypted Signal Method",
+      "Electronic Signal Management",
+      "Electronic Support Measures",
+      "Engineered Signal Mapping"
+    ],
+    "correct_answer": "Electronic Support Measures",
+    "related_fields": [
+      "Radioelektron razvedka va kurash"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Radar tizimi qanday asosda ishlaydi?",
+    "options": [
+      "Laser nurlar",
+      "Radioto‘lqinlar",
+      "Infraqizil to‘lqinlar",
+      "Aks sado"
+    ],
+    "correct_answer": "Radioto‘lqinlar",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Radiolokatsiya tizimi asosiy vazifasi nima?",
+    "options": [
+      "Signal uzatish",
+      "Ma'lumotni shifrlash",
+      "Obyektni aniqlash",
+      "Kuchaytirish"
+    ],
+    "correct_answer": "Obyektni aniqlash",
+    "related_fields": [
+      "Havo hujumidan mudofaa radiotexnika qo‘shinlari"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Zenit raketasi nimalarga qarshi qo‘llaniladi?",
+    "options": [
+      "Yer usti nishonlar",
+      "Tanklar",
+      "Dengiz kemalari",
+      "Havo nishonlari"
+    ],
+    "correct_answer": "Havo nishonlari",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Havo hujumidan mudofaa tizimining vazifasi?",
+    "options": [
+      "Ma'lumotlar almashinuvi",
+      "Dushman samolyotlarini aniqlash va yo‘q qilish",
+      "Internet ulanishi",
+      "Signal kuchaytirish"
+    ],
+    "correct_answer": "Dushman samolyotlarini aniqlash va yo‘q qilish",
+    "related_fields": [
+      "Havo hujumidan mudofaa zenit-raketa qo‘shinlari"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Kriptografiya asosiy vazifasi nima?",
+    "options": [
+      "Ma'lumotni siqish",
+      "Ma'lumotni saqlash",
+      "Ma'lumotni shifrlash",
+      "Ma'lumotni uzatish"
+    ],
+    "correct_answer": "Ma'lumotni shifrlash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Firewall nima uchun ishlatiladi?",
+    "options": [
+      "Ma'lumotlarni zaxiralash",
+      "Zararkunanda dasturlarni aniqlash",
+      "Tarmoqga ruxsatsiz kirishni bloklash",
+      "Internet tezligini oshirish"
+    ],
+    "correct_answer": "Tarmoqga ruxsatsiz kirishni bloklash",
+    "related_fields": [
+      "Tarmoq va axborot tizimlari xavfsizligi"
+    ]
+  }
+]

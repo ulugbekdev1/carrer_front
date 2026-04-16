@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import axios from "axios";
 import { FaPlay, FaRedo, FaBook, FaCheckCircle, FaGraduationCap } from "react-icons/fa";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -34,12 +34,16 @@ const Dashboard = () => {
   
   useEffect(() => {
     const fetchData = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
       setLoading(true);
       try {
         if (refreshDoneCourses) {
           await refreshDoneCourses();
         }
-        
+
         if (user?.role === 'student') {
           // Student users only fetch careers
           const careersRes = await axios.get(`${baseUrl}/careers/`, {

@@ -3,7 +3,7 @@ import { careers1, careers2, careers3, landingBack } from "../../image";
 import { ApiServices } from "../../components/api.service";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const Home = () => {
   const navigate = useNavigate();

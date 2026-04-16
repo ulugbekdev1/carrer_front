@@ -5,7 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useOutletContext, useNavigate } from "react-router-dom";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const Lessons = () => {
   const { onCourseSelect, selectedCourse, selectedLessons, doneCourses } = useOutletContext();

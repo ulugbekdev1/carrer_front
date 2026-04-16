@@ -4,7 +4,7 @@ import { FaPlay, FaFileAlt, FaArrowLeft, FaDownload } from "react-icons/fa";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const baseUrl = "http://192.168.81.106:8000/api";
+const baseUrl = "/api";
 
 const LessonPage = () => {
   const { id } = useParams();
