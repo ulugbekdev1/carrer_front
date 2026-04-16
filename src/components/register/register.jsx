@@ -6,30 +6,6 @@ import { motion } from "framer-motion";
 
 const baseUrl = "/api";
 
-// Test user credentials
-const TEST_USERS = [
-  {
-    email: "kursant@test.com",
-    password: "test123",
-    first_name: "Test",
-    last_name: "Kursant",
-    phone_number: "+998901234567",
-    jobs: "Test job",
-    interests: "Test interests",
-    role: "kursant"
-  },
-  {
-    email: "user@test.com",
-    password: "test123",
-    first_name: "Test",
-    last_name: "User",
-    phone_number: "+998901234568",
-    jobs: "Test job",
-    interests: "Test interests",
-    role: "user"
-  }
-];
-
 const Register = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
@@ -58,18 +34,6 @@ const Register = () => {
     const toastId = toast.loading("Roʻyxatdan oʻtish...");
 
     try {
-      // Test user tekshirish
-      const found = TEST_USERS.find(
-        u => formData.email === u.email && formData.password === u.password
-      );
-      if (found) {
-        localStorage.setItem("register", JSON.stringify(found));
-        setLoading(false);
-        toast.success("Ro'yxatdan muvaffaqiyatli o'tdingiz!", { id: toastId });
-        navigate("/home");
-        return;
-      }
-
       // Faqat kerakli maydonlarni yuborish
       const payload = {
         email: formData.email,
@@ -266,6 +230,7 @@ const Register = () => {
             {loading ? "Loading..." : "Ro'yxatdan o'tish"}
           </button>
           <button
+            type="button"
             onClick={() => navigate("/login")}
             className="text-center w-full text-[16px] font-[400]"
           >

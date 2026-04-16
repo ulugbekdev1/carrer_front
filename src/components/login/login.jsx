@@ -6,30 +6,6 @@ import { motion } from "framer-motion";
 
 const baseUrl = "/api";
 
-// Test user credentials
-const TEST_USERS = [
-  {
-    email: "kursant@test.com",
-    password: "test123",
-    first_name: "Test",
-    last_name: "Kursant",
-    phone_number: "+998901234567",
-    jobs: "Test job",
-    interests: "Test interests",
-    role: "kursant"
-  },
-  {
-    email: "user@test.com",
-    password: "test123",
-    first_name: "Test",
-    last_name: "User",
-    phone_number: "+998901234568",
-    jobs: "Test job",
-    interests: "Test interests",
-    role: "user"
-  }
-];
-
 const Login = () => {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
@@ -52,18 +28,6 @@ const Login = () => {
     const toastId = toast.loading("Tizimga kirish...");
 
     try {
-      // Test user tekshirish
-      const found = TEST_USERS.find(
-        u => formData.email === u.email && formData.password === u.password
-      );
-      if (found) {
-        localStorage.setItem("register", JSON.stringify(found));
-        setLoading(false);
-        toast.success("Muvaffaqiyatli kirdingiz!", { id: toastId });
-        navigate("/user/dashboard");
-        return;
-      }
-
       // Backend API so'rovi
       const response = await axios({
         method: "POST",
@@ -81,17 +45,12 @@ const Login = () => {
             Authorization: `Bearer ${response.data.access}`,
           },
         });
-        // Role mapping
-        let mappedRole = response.data.role;
-        if (mappedRole === 'cadet') mappedRole = 'cadet';
-        else if (mappedRole === 'student') mappedRole = 'student';
-        else if (mappedRole === 'admin') mappedRole = 'admin';
         // localStorage ga token, role, user info saqlash
         const userData = {
           ...userInfo.data,
           access: response.data.access,
           refresh: response.data.refresh,
-          role: mappedRole,
+          role: response.data.role,
           user_id: response.data.user_id,
         };
         localStorage.setItem("register", JSON.stringify(userData));
@@ -214,6 +173,7 @@ const Login = () => {
             {loading ? "Loading..." : "Tizimga kirish"}
           </button>
           <button
+            type="button"
             onClick={() => navigate("/register")}
             className="text-center w-full text-[16px] font-[400]"
           >

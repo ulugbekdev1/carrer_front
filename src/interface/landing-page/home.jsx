@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { careers1, careers2, careers3, landingBack } from "../../image";
-import { ApiServices } from "../../components/api.service";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 const baseUrl = "/api";
@@ -63,43 +62,28 @@ const Home = () => {
             "Content-Type": "application/json",
           },
         });
-        
-        console.log("API Response:", res?.data);
-        console.log("API Response type:", typeof res?.data);
-        console.log("API Careers length:", Array.isArray(res?.data) ? res?.data?.length : 'Not an array');
-        
+
         // If API has careers, use them. Otherwise use examples
         const apiCareers = Array.isArray(res?.data) ? res?.data : [];
         let finalCareers;
-        
-        console.log("Processed API careers:", apiCareers);
-        console.log("API careers count:", apiCareers.length);
-        
+
         if (apiCareers.length > 0) {
-          console.log("Using API careers");
           // Use all careers from API
-          finalCareers = apiCareers.map((career, index) => {
-            console.log("Processing career:", career);
-            return {
-              id: career.id,
-              name: career.name,
-              info: career.info || "Kirish darsi, 3-5 modul, yakuniy test",
-              image: career.image || [careers1, careers2, careers3][index % 3],
-              bgColor: ["#DBEDF5", "#102F2E", "#FEF1E2", "#E8F5E8", "#FFF2E6", "#F0E6FF"][index % 6],
-              textColor: (index % 6) === 1 ? "#FFFFFF" : "#1D4645"
-            };
-          });
+          finalCareers = apiCareers.map((career, index) => ({
+            id: career.id,
+            name: career.name,
+            info: career.info || "Kirish darsi, 3-5 modul, yakuniy test",
+            image: career.image || [careers1, careers2, careers3][index % 3],
+            bgColor: ["#DBEDF5", "#102F2E", "#FEF1E2", "#E8F5E8", "#FFF2E6", "#F0E6FF"][index % 6],
+            textColor: (index % 6) === 1 ? "#FFFFFF" : "#1D4645"
+          }));
         } else {
-          console.log("Using example careers (no API careers found)");
           // Use example careers if API has no careers
           finalCareers = exampleCareers;
         }
-        
-        console.log("Final careers to display:", finalCareers);
+
         setCareersData(finalCareers);
       } catch (error) {
-        console.log("API Error:", error);
-        console.log("Using example careers due to API error");
         // Use example careers if API fails
         setCareersData(exampleCareers);
       } finally {
