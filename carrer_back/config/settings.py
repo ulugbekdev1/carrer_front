@@ -11,9 +11,9 @@ REACT_BUILD_DIR = BASE_DIR.parent / 'build'
 
 SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-ojwi&_ut_7p%5)qs7+)uigshlosn(4wcqvq(_2ch7#j@#o@^dn')
 
-DEBUG = os.getenv('DEBUG', 'True') == 'True'
+DEBUG = True
+ALLOWED_HOSTS = ["37.140.216.113", "127.0.0.1", "localhost"]
 
-ALLOWED_HOSTS = ["37.140.216.113"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
