@@ -14,13 +14,13 @@ from .views import (
     UserDetailView,
 )
 
-# 🟢 test home endpoint
+# 🏠 API root test
 def home(request):
-    return JsonResponse({"status": "ok"})
+    return JsonResponse({"status": "API is working"})
 
 
 urlpatterns = [
-    # 🏠 ROOT CHECK
+    # 🏠 ROOT
     path("", home),
 
     # 🔐 AUTH
@@ -37,7 +37,7 @@ urlpatterns = [
     path("admins/<int:pk>/", AdminDetailView.as_view(), name="admin_detail"),
     path("admin/register/", AdminRegisterView.as_view(), name="admin_register"),
 
-    # 📄 EXTRA (agar kerak bo‘lsa)
-    path("register/users/", ListUsersView.as_view(), name="users_list"),
-    path("register/users/<int:pk>/", CustomUserDetailView.as_view(), name="custom_user_detail"),
+    # 📦 EXTRA
+    path("register-users/", ListUsersView.as_view(), name="register_users"),
+    path("register-users/<int:pk>/", CustomUserDetailView.as_view(), name="register_user_detail"),
 ]
