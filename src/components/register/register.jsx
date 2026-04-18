@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { motion } from "framer-motion";
 
-const baseUrl = "/api";
+const baseUrl = "http://37.140.216.113:8001/api";
 
 const Register = () => {
   const navigate = useNavigate();
